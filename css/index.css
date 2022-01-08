@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#home-content {
+  max-width: 550px;
+}
+
+div.profile-picture {
+    display: grid;
+    grid-template-columns:100px 100px auto;
+    background-color: #5C8E8E;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  h1.myname {
+    padding-left: 125px;
+    padding-top: 20px;
+    color: white;
+}
+
+p.bottomtext {
+  font-style: italic;
+}
+
+footer.footersection {
+  background-color: #5C8E8E;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center; 
+  }
+
+ p.footertext{
+   color:blanchedalmond;
+ }
