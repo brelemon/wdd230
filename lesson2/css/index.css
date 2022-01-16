@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+  border-radius: 30px;
+}
+
+body {
+	font-size: 16px;
+	font-family: "lato", Ubuntu, sans-serif;
+}
+
+h1 {
+  color:White;
+  font-size: 35px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+h2 {
+  color: white;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ header.designpage {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #0A2032;
+  text-align: center;
+  }
+
+  
+  main h3 {
+    background-color: #3A4958;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+  }
+
+  footer {
+    background-color:#0A2032;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+/* Phone views **************************/
+
+main {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+  
+
+  /* Tablet views **************************/
+  @media only screen and (min-width: 37.5em) {
+
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    main section:nth-child(2) {
+      display: block;
+    }
+  
+       main section picture {
+      display: block;
+    }
+    main section picture img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #bbb;
+    }
+    }
+
+  /* Desktop views **************************/
+  @media only screen and (min-width: 60em) {
+
+    main {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+    main section:nth-child(3) {
+      grid-column: span 1;
+    }
+    
+    }
+
+     
