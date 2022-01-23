@@ -1,0 +1,203 @@
+#home-content {
+  max-width: auto;
+}
+
+p.bottomtext {
+  font-style: italic;
+}
+
+footer.footersection {
+  background-color: #2E4536;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center; 
+  }
+
+ p.footertext{
+   color:blanchedalmond;
+ }
+
+ h2 {
+   color: #486C42;
+   }
+
+    
+ nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none; /* removes the bullets! */
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+  font-size: 16px;
+  color: white;  
+  }
+
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: white;
+    display: block;
+    padding: 1em 3em;
+    text-decoration: none;
+  }
+
+a:hover {
+  color: #2E4536;
+}
+
+a:active {
+  color: white;
+}
+
+a:focus {
+  color: white;
+}
+
+.logoimage {
+  width: 400px;
+
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 110px auto;
+  background-color: #486C42;
+  padding: 15px;
+  align-items: center;
+  border-bottom: 5px solid;
+  border-color: #6C915C;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbb;
+	padding: 0 1rem;
+	background-color: #eee;
+  border-radius: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #486C42;
+  font-size: 35px;
+  font-family: 'Cormorant Garamond', serif;
+ }
+
+h2 {
+  color: #486C42;
+  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+ header.designpage {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #0A2032;
+  text-align: center;
+  }
+
+  
+  main h3 {
+    background-color: #486C42;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+  }
+
+  footer {
+    background-color:#0A2032;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+/* Phone views **************************/
+
+main {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+  
+
+  /* Tablet views **************************/
+  @media only screen and (min-width: 37.5em) {
+
+
+
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    main section:nth-child(2) {
+      display: block;
+    }
+  
+       main section picture {
+      display: block;
+    }
+    main section picture img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #bbb;
+    }
+    }
+
+  /* Desktop views **************************/
+  @media only screen and (min-width: 60em) {
+
+    main {
+      grid-template-columns: 1fr;
+    }
+  
+    main section:nth-child(3) {
+      grid-column: span 1;
+    }
+
+
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none; /* removes the bullets! */
+      grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+      font-size: 16px;
+      color: white;  
+      }
+
+        
+    }
+
+    
