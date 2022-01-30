@@ -1,0 +1,14 @@
+/* Media Query for large+ views */
+@media only screen and (min-width: 64rem) {
+
+  nav ul li a {
+    padding: .5rem 1rem;
+  }
+
+  header img {
+		width: 250px;
+		
+
+	  }
+
+}
