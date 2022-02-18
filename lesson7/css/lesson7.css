@@ -1,0 +1,22 @@
+
+  
+img {
+    filter: blur(0em);
+    transition: filter 2.5s;
+
+
+
+    width: 300px;
+    height: 400px;
+
+  }
+
+  img[data-src] {
+    filter: blur(.2em);
+  }
+
+  .image-column {
+    display: flex;
+    flex-direction: column;
+
+  }
