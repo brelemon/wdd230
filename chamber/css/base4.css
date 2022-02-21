@@ -1,0 +1,368 @@
+body {
+  display: block;
+}
+
+/* Fonts */
+p {
+  font-family: lato, sans-serif;
+  font-size: 16px;
+}
+
+main p {
+  color: #383838;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* banner */
+#banner {
+  display: none;
+  background-color: #2e4536;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* Header */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-column-gap: 0.8rem;
+  background-color: #486c42;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+}
+
+heading h1 {
+  font-size: 30px;
+}
+
+.chamber {
+  display: none;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* Social */
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.social img {
+  width: 30px;
+  height: auto;
+  grid-column: 4/5;
+  padding: 0.3em;
+}
+
+/* Menu */
+
+nav {
+  margin: 0 auto;
+  max-width: 760px;
+  font-family: lato, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  align-content: flex-end;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+
+.responsive {
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.responsive a {
+  background-color: #2e4536;
+}
+
+.responsive a:hover {
+  background-color: #6c925c;
+}
+
+/* Main */
+
+main {
+  display: block;
+}
+
+main section {
+  margin: 0.5rem;
+  background-color: #e1e6e9;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #6c915c;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Sections */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.heroPic {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.hero h2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+}
+
+.heroButton {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-image: linear-gradient(#6c915c, #6c915c); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.5s ease;
+  transform: scale(1);
+  max-width: 70%;
+  max-height: 50%;
+  justify-self: right;
+  align-self: end;
+}
+
+.heroButton:hover {
+  background-image: linear-gradient(#6c915c, #486c42);
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.join {
+  display: none;
+}
+
+.joinButton {
+  background-color: #6c915c;
+  border: none;
+  color: white;
+  padding: 3% 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.5s ease;
+  transform: scale(1);
+  max-width: 70%;
+  max-height: 50%;
+  justify-self: center;
+  font-size: 20px;
+}
+
+.joinButton:hover {
+  background-image: linear-gradient(#6c915c, #486c42);
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+}
+
+.spotlight p {
+  margin: 2%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.highlight {
+  color: #87a28a;
+  font-weight: 600;
+}
+
+.spotlight hr {
+  margin-top: 5%;
+}
+
+.events {
+  align-items: center;
+}
+
+.weather {
+  background-color: #6c915c;
+  color: white;
+}
+
+.weather h3 {
+  color: white;
+}
+
+.weather p {
+  color: white;
+}
+
+.weather h4 {
+  color: white;
+  font-size: 2rem;
+}
+
+/* .weather h5 {
+  color
+} */
+
+.weather img {
+  float: left;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #2e4536;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.contactInfo a {
+  color: white;
+  padding: 8px 8px;
+  font-family: lato, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contactInfo a:hover {
+  color: #87a28a;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+footer p {
+  font-family: lato, sans-serif;
+}
+
+date {
+  grid-column: 1/5;
+  text-align: center;
+  background-color: #6c925c;
+  margin: 0.5rem;
+  padding: 0.75rem;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: white;
+}
+
+.discoverPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.discoverSection {
+  margin-bottom: 5%;
+}
+
+.discoverPage img {
+  filter: blur(0em);
+  transition: filter 1.5s;
+}
+
+.discoverPage img[data-src] {
+  filter: blur(0.2em);
+}
+
+.discoverPage h1 {
+  margin-bottom: 0;
+}
