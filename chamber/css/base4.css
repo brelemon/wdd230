@@ -374,7 +374,7 @@ button:hover {
 .joinPage {
   display: flex;
   flex-direction: column;
-  background-image: url("wdd230/chamber/images/waitingroom.jpg");
+  background-image: url("/wdd230/chamber/images/waitingroom.jpg");
   background-position: center;
   background-size: cover;
   margin: 0;
