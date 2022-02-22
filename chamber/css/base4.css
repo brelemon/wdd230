@@ -378,6 +378,7 @@ button:hover {
   background-position: center;
   background-size: cover;
   margin: 0;
+  background-attachment: fixed;
   }
 
   .regForm {
@@ -495,6 +496,7 @@ form label.top input:required{
       background-position: center;
       background-size: cover;
       margin: 0;
+      background-attachment: fixed;
       }
 
       .thanksMessage{
