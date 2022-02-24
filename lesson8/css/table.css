@@ -1,0 +1,69 @@
+:root {
+	--back: hsla(150, 50%, 30%, 1);
+  --back2: hsla(150, 50%, 30%, .5);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1); 
+}
+
+thead,
+tfoot {
+    background-color: #628CA6;
+    color: #fff;
+    font-size: 1rem;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    background-color: #7FB9C2;
+    font-size: .75rem;
+    color: black;
+    letter-spacing: 0;
+    }
+
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(200, 200, 200);
+    font-family: ubuntu, sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+    }
+
+td {
+    text-align: center;
+}
+
+.highlight{
+    background-color: #628CA6;
+    color: white;
+}
+
+.row1 {
+    background-color: #E7F0ED;
+}
+
+.row2 {
+    background-color: #E7FFED;
+}
+
+.bf{
+    font-style: italic;
+}
+
+.topTitle{
+    color: black;
+}
