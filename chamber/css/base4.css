@@ -172,7 +172,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  background-image: url("/chamber/images/pleasant-grove-bridge-400.jpg");
+  background-image: url("/wdd230/chamber/images/pleasant-grove-bridge-400.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -360,7 +360,7 @@ button:hover {
 .joinPage {
   display: flex;
   flex-direction: column;
-  background-image: url("/chamber/images/waitingroom.jpg");
+  background-image: url("/wdd230/chamber/images/waitingroom.jpg");
   background-position: center;
   background-size: cover;
   margin: 0;
@@ -480,7 +480,7 @@ form label.top input:required:valid {
 .thanksPage {
   display: flex;
   flex-direction: column;
-  background-image: url("/chamber/images/road-and-trees.jpg");
+  background-image: url("/wdd230/chamber/images/road-and-trees.jpg");
   background-position: center;
   background-size: cover;
   margin: 0;
