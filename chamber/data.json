@@ -51,42 +51,42 @@
 
      {
       
-      "address": "", 
-      "website": "",
-      "phone": "",
-      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/"
+      "address": "93 S Main St Ste. B, Pleasant Grove, UT 84062", 
+      "website": "https://www.soaplicity.com/",
+      "phone": "801-319-5900",
+      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/soaplicity-logo.webp"
      },  
 
      {
       
-      "address": "", 
-      "website": "",
-      "phone": "",
-      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/"
+      "address": "45 S Main St, Pleasant Grove, UT 84062", 
+      "website": "http://www.thetrufflecottage.com/",
+      "phone": "801-230-2706",
+      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/truffle-logo.webp"
      },  
 
      {
       
-      "address": "", 
-      "website": "",
-      "phone": "",
-      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/"
+      "address": "340 S Main St, Pleasant Grove, UT 84062", 
+      "website": "http://www.firebirdpizza.com/",
+      "phone": "801-785-8804",
+      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/firebird-logo.webp"
      },  
 
      {
       
-      "address": "", 
-      "website": "",
-      "phone": "",
-      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/"
+      "address": "1882 W Pleasant Grove Blvd, Pleasant Grove, UT 84062", 
+      "website": "https://www.jerseymikes.com/",
+      "phone": "801-701-7115",
+      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/mikes-subs-logo.webp"
      },  
 
      {
       
-      "address": "", 
-      "website": "",
-      "phone": "",
-      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/"
+      "address": "550 W 220 S St, Pleasant Grove, UT 84062", 
+      "website": "https://www.swimkidsutah.com/",
+      "phone": "801-691-7946",
+      "imageurl": "https://brelemon.github.io/wdd230/chamber/images/swimkids-logo.webp"
      }
   ]
 }
