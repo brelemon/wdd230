@@ -1,0 +1,40 @@
+/* Media Query for large+ views */
+@media only screen and (min-width: 64rem) {
+
+ /* CTA */
+ .cta{
+    padding-left: 8rem;
+    padding-right: 8rem;
+ }
+
+  /* SUMMARY SECTION */
+  .summarySection {
+   text-align: left;
+   margin-top: 8rem;
+   margin-bottom: 8rem;
+   display: flex;
+   flex-direction: row;
+   height: 30rem;
+ }
+
+ .sumImg{
+   right: 50%;
+   position: absolute;
+   width: 50%;
+   padding-top: 25%;
+   background-image: url("../images/temple-background.png");
+   background-position: center top;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 30%;
+ }
+
+ .sumTxt{
+    padding-left: 53%;
+    
+ }
+
+
+
+}
