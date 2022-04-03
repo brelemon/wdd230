@@ -1,0 +1,483 @@
+body {
+  display: block;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #436e6e;
+  min-height: 5vh;
+  margin: 0;
+  align-items: center;
+  border-bottom: 5px solid #325454;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: space-between;
+}
+
+.mainPadding {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+footer {
+  background-color: #325454;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  margin: 0;
+  padding-bottom: 1%;
+  border-top: #d0b974 solid 5px;
+}
+
+.bottomFooters a:hover {
+  color: #d0b974;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer section {
+  text-align: center;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1%;
+  padding: 1%;
+  font-size: 1.2rem;
+}
+
+.footerContact a {
+  color: white;
+}
+
+.footerContact a:hover {
+  color: #d0b974;
+}
+
+#underLogo {
+  width: 30%;
+  color: #325454;
+}
+
+.info img {
+  padding-bottom: 1%;
+}
+
+/* NAVIGATION */
+
+nav {
+  max-width: 760px;
+  font-family: lato, sans-serif;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: white;
+  z-index: 1;
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+  z-index: 4;
+}
+
+.responsive {
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.responsive a {
+  background-color: #325454;
+}
+
+.responsive a:hover {
+  background-color: #d0b974;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* HOME PAGE */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 14rem;
+  padding-bottom: 15rem;
+  background-image: url("../images/slctemple7.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.proposition {
+  display: flex;
+  flex-direction: column;
+  max-width: 35rem;
+  max-height: 35rem;
+  background-color: #436e6e;
+  padding: 15px 25px 50px 20px;
+  color: white;
+  border-radius: 15px;
+}
+
+.headerh1 {
+  font-size: 3rem;
+  padding-bottom: 0%;
+  margin-bottom: -5px;
+  color: white;
+}
+
+.proposition button {
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  background-color: #d0b974;
+  text-align: center;
+  max-width: 45%;
+}
+
+.proposition button:hover {
+  background-color: #5f9494;
+}
+
+.proposition h2 {
+  font-family: lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+/* SECOND SECTION */
+
+.secondSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem;
+  margin-top: -40px;
+  z-index: 1;
+  background-color: white;
+  border-radius: 20px;
+  gap: 2em;
+  box-shadow: 5px 2px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+.cta p:nth-child(1) {
+  color: #436e6e;
+}
+.ctaBtn {
+  color: white;
+  font-size: 1rem;
+  padding: 0px 20px 0px 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #436e6e;
+}
+
+.ctaBtn:hover {
+  background-color: #d0b974;
+  cursor: pointer;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #436e6e;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+.keepReading {
+  border: none;
+  background-color: #436e6e;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  width: 96%;
+  max-width: 14rem;
+}
+
+.vl {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: 3rem;
+  left: 50%;
+  position: absolute;
+}
+
+/* SUMMARY SECTION */
+.summarySection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.sumTxt h2{
+  font-size: 2.2rem;
+  color: #436e6e;
+}
+
+/* Home Page Weather Section */
+.weatherContainer{
+  background-color: #436e6e;
+  margin: 0;
+  margin-bottom: -1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: white;
+}
+
+/* Temple Page */
+
+.tempHero {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/provo-temple-1920.jpg") no-repeat top center;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 3%;
+  }
+
+.templePage {
+  display: block;
+  margin-bottom: 3%;
+  }
+
+.templePage h1 {
+  text-align: left;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: white;
+  font-size: 3rem;
+}
+
+.templePage h2 {
+  color: #436e6e;
+  font-size: 2rem;
+}
+
+.cards section {
+  background-color: #f2f3f579;
+  padding: 25px;
+}
+
+.templePage img {
+  max-width: fit-content;
+  max-height: 20rem;
+  border-bottom: solid 10px #d0b974;
+ justify-content: center;
+ }
+
+ .templeTitle{
+   font-weight: 700;
+   font-size: 1.2rem;
+   color: #5f9494;
+ }
+
+/* Reservation Page*/
+
+.resHero {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/hotel-hall.jpg") no-repeat top center;
+  background-position: bottom center;
+  background-size: cover;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+.resSecond {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.resSecond h2 {
+  color: #436e6e;
+  font-size: 2rem;
+}
+
+.colorSpan {
+  color: #d0b974;
+}
+
+.theForm {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+fieldset {
+  margin: 2rem 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0.5rem 2%;
+}
+
+legend {
+  color: rgba(0, 0, 0, 0.2);
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: grey;
+  font-size: 1rem;
+  text-align: left;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px grey;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #444;
+  width: 100%;
+  max-width: 20rem;
+ 
+}
+
+#w3review {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px grey;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #444;
+  width: 100%;
+  max-width: 20rem;
+
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  
+  font-family: lato, sans-serif;
+}
+
+
+
+form label.top input:required {
+  border-left: red solid 5px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 5px;
+}
+
+/* Services Page*/
+.servHero{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../images/banquet-table-restaurant.jpg") no-repeat top center;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 3%;
+}
+
+ /* Services Page */
+
+
+.servMid {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("../images/happy-family-nature-full-shot.jpg") no-repeat top center;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 3%;
+  border-top: 15px solid #436e6e;
+  border-bottom: 15px solid #436e6e;
+}
+
+.servMid p{
+  color: white;
+}
+
+.servH2 {
+  font-family: lato, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: white;
+}
+
+.leftTxt h2{
+  font-size: 2.2rem;
+  color: #436e6e;
+  }
+
+
