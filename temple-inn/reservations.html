@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Temple Inn & Suites | Salt Lake City Utah</title>
+  <meta name="author" content="Breanna LeMmon">
+  <meta name="description" content="">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+  <header class="mainPadding">
+    <a href="index.html"><img src="images/temple-logo-60.png" alt="" class="logo"></a>
+    </div>
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+
+      <ul id="primaryNav" class="navClass">
+        <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navItem"><a href="services.html" class="navLink">Services</a></li>
+        <li class="navItem"><a href="temple.html" class="navLink">The Temple</a></li>
+        <li class="active navItem"><a href="reservations.html" class="navLink">Reservations</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+  <main>
+
+    <div class="resHero mainPadding">
+      <section>
+        <h1 class="headerh1">Book With Us Today!</h1>
+      </section>
+    </div>
+
+    <div class="resSecond mainPadding"> 
+      <section>
+        <h2><span class="colorSpan">Make your reservation at the</span> <br> Salt Lake City Temple Inn</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+    </div>
+
+
+   
+    <div class="formArea mainPadding">
+    <section class="theForm">
+      <form method="get" action="thanks.html">
+        <input type="hidden" id="formStamp">
+        
+        <fieldset class="topFieldset">
+            <h2 class="formHeader">Trip Information</h2>
+            <div class="tripInfoFields">
+            
+            <label for="location">Location
+<select class="labelSpace" id="location" name="location" placeholder="Select">
+<option value="" disabled selected hidden>Select One</option>
+<option value="slc">Salt Lake City</option>
+<option value="sj">South Jordan</option>
+<option value="Logan">Logan</option>
+<option value="af">American Fork</option>
+</select></label>
+<label>Date <input class="labelSpace lengthDateField" type="datetime-local" name="name"></label>
+<label>Number of Rooms<input class="lengthRoomField labelSpace" type="number" name="rooms" min="1"></label>
+                      
+            </div>
+           </fieldset>
+
+           <fieldset class="bottomFieldset">
+            <h2 class="formHeader">Personal Information</h2>
+            <div class="personalInfoFields">
+            <label>*Name<input class="labelSpace" type="text" name="fname" required></label>
+            <label>*Email<input class="labelSpace" type="email" name="email" placeholder="someone@gmail.com"
+                    required></label>
+                    <label>Phone<input class="labelSpace" type="tel" name="phone" placeholder="1234567890"></label>
+          </div>
+            <span class="sa">
+            <label>Special Accommodations</label>
+            <textarea class="messageBox" name="message" rows="4" cols="50"></textarea>
+          <p class="reqP"><i>*Required</i></p> 
+          
+        
+            <input type="submit" value="Submit" class="submitBtn">
+            </span>
+          </div>
+          </fieldset>
+
+          
+
+          
+
+
+           </form>
+           </section>
+    </div>
+
+
+
+    
+  </main>
+
+  <footer>
+    <div class="top">
+      <section class="info">
+        <a href="index.html"><img src="images/temple-logo-60.png" alt="logo of Pleasant Grove Chamber of Commerce"
+            class="logo"></a>
+        <hr id="underLogo">
+        <div class="footerContact">
+          <a href="tel:+18015555555"> &#9743; Call Us</a>
+          <a href="mailto:info@slctempleinn.com"> &#9993; Send us an email</a>
+          <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977258,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318"
+            target="blank"> &#x022D2; Headquarters</a>
+        </div>
+      </section>
+    </div>
+
+
+    <section class="bottomFooter">
+      <span id=currentyear></span>
+      <span id="lastmod"></span>
+
+    </section>
+    <div class="bottomFooters">
+      <p>&#169; <span id="copyrightyear"></span> | <a href="resources.html">Resources</a> | Breanna LeMmon | Last
+        Updated: <span class="date" id="revDate"></span></p>
+      <p class="weatherDisclaimer">Weather information sourced from <a
+          href="https://openweathermap.org/">openweathermap.org</a></p>
+    </div>
+
+  </footer>
+
+
+  <script src="js/menu.js"></script>
+  <script src="js/date.js"></script>
+
+</body>
+
+</html>
