@@ -1,0 +1,141 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 35rem) {
+
+  .mainPadding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+
+
+
+.proposition button{
+  max-width: 25%;
+}
+
+
+/* CALL TO ACTION */
+
+.cta{
+  display: flex;
+  flex-direction: row;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  font-size: 1.5rem;
+  margin-top: -60px;
+  }
+
+  .ctaBtnContainer{
+    margin: 0;
+   gap: 20px;
+  }
+
+   .cta p:nth-child(1) {
+    font-size: 1.5rem;
+  }
+
+/* Feature, second section on the home page */
+.feature{
+  margin-top: 8rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  }
+
+.feature1{
+  left: 50%;
+  position: absolute;
+  width: 50%;
+  padding-top: 35%;
+  border-left: 1px solid white;
+  margin-left: -1px;
+
+  }
+
+.feature2{
+  right: 50%;
+  position: absolute;
+  width: 50%;
+  padding-top: 35%;
+  border-right: 2px solid white;
+  
+}
+
+.feature1 h3{
+  font-size: 1.5rem;
+}
+
+.feature2 h3{
+  font-size: 1.5rem;
+}
+
+.feature2{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/family-breakfast-1000.jpg") no-repeat center;
+  }
+
+.feature2:hover{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/family-breakfast-1000.jpg") no-repeat center;
+  }
+
+/* HOME PAGE SUMMARY */
+.summarySection{
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+}
+
+  /* RESERVATION */
+  .tripInfoFields {
+    padding-bottom: 4%;
+  }
+  
+  .resSecond h2 {
+    font-size: 2rem;
+  }
+
+  .messageBox {
+    max-width: 20rem;
+  }
+
+  .servMid p{
+    max-width: 70%;
+  }
+
+  .wedMid p{
+    max-width: 70%;
+  }
+
+  .firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+  .firstRow img{
+    max-width: 30%;
+  }
+
+  .weddingGallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .weddingGallery img{
+    max-width: 30%;
+  }
+
+  /* SERVICES */
+.serviceSection{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+
+  
+
+}
